@@ -17,6 +17,7 @@ btn.onclick = function () {
     }
 
     count++;
+    document.querySelector('.clicks').textContent=`${count} click`
 
     if(count==2){
 
