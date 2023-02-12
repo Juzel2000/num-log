@@ -26,17 +26,17 @@ btn.onclick = function () {
             showhint(start,end)
         }
         else if(num<=15 && num>10){
-            let diff = (num+15)-25;
-            let s = num-diff;
-            let start =  Math.trunc(Math.random()*s)+1;
+            // let diff = (num+15)-25;
+            // let s = num-diff;
+            let start =  Math.trunc(Math.random()*10)+1;
             let end= start+14;
             showhint(start,end)
         }
         else{
-            let diff = (num+15)-25
-            let s = num-diff
+            // let diff = (num+15)-25
+            // let s = num-diff
             let diff2= (num-15)+1
-            const start = Math.floor(Math.random() * (s - diff2+1 )) + diff2;
+            const start = Math.floor(Math.random() * (11 - diff2+1 )) + diff2;
             let end= start+14; 
             showhint(start,end)
         }
